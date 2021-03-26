@@ -1,0 +1,33 @@
+.containerContactUs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 98px;
+}
+.title {
+  background-color: var(--light);
+  color: var(--white);
+  text-transform: uppercase;
+  padding: 26px 20px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .wrappAlineItem {
+    display: flex;
+  }
+  .containerComponentForm {
+    width: 50%;
+    background-color: var(--button);
+    min-height: 390px;
+  }
+  .containerComponentContactData {
+    width: 50%;
+    background-color: var(--light);
+    min-height: 390px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .title {
+    font-size: 30px;
+  }
+}

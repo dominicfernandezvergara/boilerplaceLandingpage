@@ -1,0 +1,78 @@
+.containerFirstSection {
+  height: 300px;
+  width: 100%;
+  /* background-image: url('../../../images/empty-state-image.png'); */
+  background-color: var(--light);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.containerText {
+  background-color: #ffffff66;
+  height: 220px;
+  width: 280px;
+}
+.title {
+  padding: 10px;
+  text-align: center;
+  color: var(--primary);
+}
+.text {
+  text-align: center;
+  color: var(--primary);
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 768px) {
+  .containerFirstSection {
+    height: 500px;
+  }
+  .containerText {
+    height: 300px;
+    width: 400px;
+  }
+  .title {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .containerText {
+    height: fit-content;
+    width: fit-content;
+    padding: 30px;
+    width: 500px;
+  }
+  .title {
+    font-size: 60px;
+  }
+  .text {
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .title {
+    font-size: 60px;
+  }
+  .text {
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .containerFirstSection {
+    height: 600px;
+  }
+  .title {
+    font-size: 70px;
+  }
+  .text {
+    font-size: 30px;
+  }
+}
